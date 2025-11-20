@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ConnectU – Connect With Alumni</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body { font-family: "Lexend", sans-serif; }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- HEADER -->
+  <header class="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <h1 class="text-2xl font-extrabold text-emerald-700">ConnectU</h1>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+        <a class="hover:text-emerald-600 transition">Home</a>
+        <a class="hover:text-emerald-600 transition">About</a>
+        <a class="hover:text-emerald-600 transition">Features</a>
+        <a class="hover:text-emerald-600 transition">Success Stories</a>
+      </nav>
+
+      <div class="flex gap-3">
+        <button class="px-5 py-2 bg-gradient-to-r from-emerald-500 to-green-600 text-white font-semibold rounded-xl shadow-md hover:scale-105 transition">
+          Join as Student
+        </button>
+        <button class="px-5 py-2 border border-emerald-600 text-emerald-700 font-semibold rounded-xl hover:bg-emerald-50 transition">
+          Join as Alumni
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative h-[550px] flex items-center justify-center text-center bg-cover bg-center"
+    style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');">
+
+    <div class="max-w-3xl px-4">
+      <h1 class="text-white text-4xl md:text-6xl font-black drop-shadow-lg">
+        Connect with Alumni, Shape Your Future
+      </h1>
+      <p class="mt-4 text-white/90 text-lg max-w-2xl mx-auto">
+        Build meaningful mentorships, receive career guidance, and unlock opportunities for success.
+      </p>
+
+      <div class="flex justify-center mt-8 gap-4 flex-wrap">
+        <button class="px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 text-white font-bold shadow-lg hover:scale-105 transition">
+          Join as Student
+        </button>
+        <button class="px-6 py-3 rounded-xl bg-white/90 text-gray-800 font-bold shadow hover:bg-white transition">
+          Join as Alumni
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY FEATURES -->
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-4xl font-extrabold mb-6">Key Features</h2>
+    <p class="text-gray-600 max-w-2xl mb-10">
+      ConnectU offers powerful tools built to support networking, mentorship, and career development.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Feature Card -->
+      <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition border border-gray-100">
+        <h3 class="text-xl font-bold mb-2">🎯 AI-Powered Matching</h3>
+        <p class="text-gray-600">
+          Our AI recommends the best alumni mentors aligned with your interests.
+        </p>
+      </div>
+
+      <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition border border-gray-100">
+        <h3 class="text-xl font-bold mb-2">🔍 Targeted Networking</h3>
+        <p class="text-gray-600">
+          Search and filter alumni by industry, expertise, or experience.
+        </p>
+      </div>
+
+      <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition border border-gray-100">
+        <h3 class="text-xl font-bold mb-2">💬 Seamless Communication</h3>
+        <p class="text-gray-600">
+          Built-in messaging tools and meeting options for quick communication.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUCCESS STORIES -->
+  <section class="max-w-7xl mx-auto px-6 py-10">
+    <h2 class="text-3xl font-extrabold mb-6">Success Stories</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="font-semibold text-lg">Olivia’s Journey</h3>
+          <p class="text-gray-600 text-sm mt-1">
+            Secured her dream tech job through alumni mentorship.
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="font-semibold text-lg">Ethan’s Transformation</h3>
+          <p class="text-gray-600 text-sm mt-1">
+            Gained clarity & internship through guided mentorship.
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1573497491208-6b1acb260507" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="font-semibold text-lg">Sophia Gives Back</h3>
+          <p class="text-gray-600 text-sm mt-1">
+            Empowering students became her passion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-t border-gray-200 py-8 mt-20">
+    <div class="max-w-7xl mx-auto text-center text-gray-600 text-sm">
+      <div class="flex justify-center gap-8 mb-4">
+        <a class="hover:text-emerald-600 transition">About</a>
+        <a class="hover:text-emerald-600 transition">Contact</a>
+        <a class="hover:text-emerald-600 transition">Privacy Policy</a>
+        <a class="hover:text-emerald-600 transition">Terms of Service</a>
+      </div>
+      <p>© 2024 ConnectU. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
